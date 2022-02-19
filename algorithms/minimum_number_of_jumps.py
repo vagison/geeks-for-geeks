@@ -28,4 +28,5 @@ def minJumps(arr, n):
         currentPosition = farestPosition
         farestPosition = nextFarestPosition
         jumpNumbers += 1
+    
     return jumpNumbers
