@@ -1,2 +1,2 @@
 # geeks-for-geeks
-Solving problems from https://geeksforgeeks.org/
+Solving problems from https://practice.geeksforgeeks.org/
