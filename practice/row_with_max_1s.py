@@ -2,18 +2,20 @@
 # https://practice.geeksforgeeks.org/problems/row-with-max-1s0023/1
 
 def rowWithMax1s(arr, n, m):
-    j = m - 1
-    row = -1
+    columnIndex = m - 1
+    searchedRow = -1
 
-    for i in range(0, n):
-        if j == -1:
+    for rowIndex in range(0, n):
+        if columnIndex == -1:
             break
 
-        while j > -1:
-            if arr[i][j] == 1:
-                row = i
-                j -= 1
+        while columnIndex > -1:
+            if arr[rowIndex][columnIndex] == 1:
+                searchedRow = rowIndex
+                columnIndex -= 1
             else:
                 break
 
-    return row
+    return searchedRow
+
+    
