@@ -1,4 +1,4 @@
-def countZeroes(self, arr, n):
+def countZeroes(arr, n):
     start = 0
     end = n - 1
     mid = (start + end) // 2
