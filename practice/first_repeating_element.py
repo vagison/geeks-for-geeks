@@ -1,7 +1,7 @@
 # First Repeating Element
 # https://practice.geeksforgeeks.org/problems/first-repeating-element4018/1
 
-def firstRepeated(self, arr, n):
+def firstRepeated(arr, n):
     hashMap = {}
 
     for item in arr:
