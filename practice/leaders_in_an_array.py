@@ -16,3 +16,4 @@ def leaders(A, N):
     storage.reverse()
 
     return storage
+
